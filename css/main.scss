@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary-color:#88C542;
+$secondary-color:#27AD6C;
+$gradient-color:linear-gradient(rgba(0, 0, 0, 0.9),rgba(8, 26, 15, 0.9));
+$menubgcolor:linear-gradient(rgb(0, 0, 0),rgb(8, 26, 15));
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0rem;
+    overflow-x: hidden;
+}
+
+@import '_hero';
+
+@import '_requirement';
+
+@import '_resources_news';
+
+@import '_ninja_seperator';
+
+@import '_gallery';
+
+@import '_what_we_provide';
+
+@import '_footer';
+
+@import '_custom_scrollbar';
+
+@import '_media_queries';

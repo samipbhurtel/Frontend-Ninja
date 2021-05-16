@@ -1,0 +1,28 @@
+.ninja_seperator{
+    margin-top: 7em;
+    margin-bottom: 7em;
+    text-align: center;
+    position: relative;
+
+    &:before{
+        content: "";
+        display: block;
+        width: 120px;
+        height: 2px;
+        background: #88C542;
+        position: absolute;
+        left: 38%;
+        top: 50%;
+    }
+
+    &:after{
+        content: "";
+        display: block;
+        width: 120px;
+        height: 2px;
+        background: #88C542;
+        position: absolute;
+        right: 38%;
+        top: 50%;
+    }
+}

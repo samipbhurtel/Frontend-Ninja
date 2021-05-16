@@ -1,0 +1,166 @@
+.hero-bg{
+    overflow: hidden;
+    padding: 20px 10px;
+    text-align: center;
+    padding-bottom: 50%;
+    background: linear-gradient(rgba(0, 10, 2, 0.9),rgba(8, 26, 15, 0.9)), 
+    
+          url('../images/hero-bg.png');
+
+          nav{
+            background:transparent;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding:0px 0 20px 0;
+
+            .logo{
+                position:relative;
+                top: 10px;
+                font-size: 16px;
+                cursor: pointer;
+
+                .logoimg{
+                    position: relative;
+                    top: 18px;
+                    left: 28px;
+                }
+
+                .textlogo{
+                    color: $primary-color;
+                    line-height: 18px;
+                    position: relative;
+                    left: 30px;
+                    text-decoration: none;
+
+                    span{
+                        text-transform: uppercase;
+                        display: block;
+                        position: relative;
+                        letter-spacing: 8px;
+                        left: 20px;
+                      }
+                
+                  }
+            }
+
+            .openMenu{
+                font-size: 2rem;
+                margin: 20px;
+                display: none;
+                cursor: pointer;
+            }
+
+            .mainMenu{
+                display: flex;
+                list-style: none;
+
+                
+                li a{
+                    display: inline-block;
+                    padding: 15px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-size: 16px;
+
+                    &:hover{
+                        color:$primary-color;
+                    }
+
+                    &.active {
+                        color: $primary-color;
+                      }
+                }
+
+                #search{
+                    padding:16px;  
+                    cursor: pointer;
+                    color: #fff;  
+                    
+                    &:hover{
+                        background-color:$primary-color;
+                        border-radius: 50px;
+                    }
+                  }
+
+                .closeMenu{
+                    font-size: 2rem;
+                    display: none;
+                    cursor: pointer;
+                }
+
+                .icons {
+                    i{
+                        font-size: 2rem;
+                        display: none;
+                        cursor: pointer;
+                    }
+                }
+
+                .fa-facebook:hover {
+                    color: #4267B2;
+                }
+                .fa-twitter:hover {
+                    color: #1DA1F2;
+                }
+                .fa-instagram:hover {
+                    color: #fbad50;
+                }
+                .fa-github:hover {
+                    color: #000;
+                }
+            }
+          }
+
+          .content{
+            position: absolute;
+            width: 624px;
+            left: calc(50% - 624px/2 + 1px);
+            top: calc(40% - 84px/2 + 9.5px);
+            color: #FFFFFF;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            mix-blend-mode: normal;
+
+            h1{
+                position: relative;
+                width:1000px;
+                right:30%;
+                font-size: 84px;
+              }
+
+            .btnarrow{
+                position: relative;
+                top: 20px;
+                left: -6px;
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: $secondary-color;
+                margin: 0px 5px;
+                padding: 12px 35px;
+                border: 1px solid $secondary-color;
+                box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.4);
+                border-radius: 4px;
+                font-size: 16px;
+
+                img{
+                    position: relative;
+                    top: 2px;
+                    left: 5px;
+                }
+
+                &:hover{
+                    background: $gradient-color;
+                    text-decoration: none;
+                    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+                  }
+                
+                
+            }
+            
+          }
+    
+  }

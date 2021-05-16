@@ -1,0 +1,233 @@
+
+
+@media only screen and (max-width: 633px),(max-width: 430px){
+
+    .hero-bg{
+        padding: 0px 30px 200px;
+        text-align: center;
+        padding-bottom: 100%;
+        overflow-x:hidden;
+
+        nav {
+
+            .openMenu{
+                display:block ;
+                position: relative;
+                left: 20px;
+            }
+
+            .mainMenu{
+                height: 100vh;
+                position: fixed;
+                margin-top: 0px;
+                top: 0;
+                right: 0;
+                left: 0;
+                z-index: 10;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: $menubgcolor;
+                transition: top 1s ease;
+                display: none;
+        
+                .closeMenu{
+                    display: block;
+                    position: absolute;
+                    top: 30px;
+                    right: 28px;
+                }
+
+                .icons {
+                    i{
+                        display: inline-block;
+                        padding: 12px;
+                    }
+                }
+                
+    
+                li a:hover{
+                    font-size: 1.6rem;
+                }
+    
+                                               
+            }
+            .icons i{
+                    display: inline-block;
+                    padding: 120px;
+                }
+    
+        }
+    
+        .content {
+            position: absolute;
+            width: 224px;
+            left: calc(69% - 400px/2 + 1px);
+            top: calc(28% - 84px/2 + 9.5px);
+            color: #FFFFFF;
+            font-size: 10px;
+            line-height: 18px;
+    
+            h1{
+                width:300px;
+                left:-38px;
+                font-size: 42px;
+                line-height: 50px;
+              }
+              
+              .btnarrow img{
+                position: relative;
+                top: 5px;
+                left: 5px;
+            }
+          }
+    }
+
+    .containertwo {
+
+        .vr{
+            visibility: hidden;
+        }
+
+        .news h1{
+            margin-bottom: 90px;
+        }
+    
+    }
+
+    .what_we_provide{
+        .providewrapper{
+            .row{
+                padding-left: 120px;
+                padding-right: 120px;
+            }
+              
+        }
+        .btnarrow{
+            position: relative;
+            left: 30%;
+          }
+        
+    }
+    
+    
+      .end_section{
+        position: relative;
+        top: 10px;
+        background: #333333;
+        margin-top: -10PX;
+        padding: 50PX 0 30PX 0;
+
+        footer a {
+            padding: 8px;
+          }
+    }
+    
+}  
+
+
+@media (min-width: 632px) and (max-width: 1100px) {
+    .hero-bg{
+        padding: 0px 30px 200px;
+        text-align: center;
+        padding-bottom: 70%;
+        overflow-x:hidden;
+
+        nav{
+            .openMenu{
+                display:block ;
+                position: relative;
+                left: 20px;
+            }
+
+            .mainMenu{
+                height: 100vh;
+                position: fixed;
+                margin-top: 0px;
+                top: 0;
+                right: 0;
+                left: 0;
+                z-index: 10;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: $menubgcolor;
+                transition: top 1s ease;
+                display: none;
+
+                .closeMenu{
+                    display: block;
+                    position: absolute;
+                    top: 30px;
+                    right: 28px;
+                }
+
+                li a:hover{
+                    font-size: 1.6rem;
+                }
+            } 
+
+            .icons i{
+                display: inline-block;
+                padding: 12px;
+            }
+          
+        }
+
+        .content {
+            position: absolute;
+            width: 524px;
+            left: calc(58% - 624px/2 + 1px);
+            top: calc(40% - 84px/2 + 9.5px);
+            color: #FFFFFF;
+            font-size: 15px;
+            line-height: 18px;
+    
+            h1{
+                width:500px;
+                left:10px;
+                font-size: 42px;
+                line-height: 50px;
+              }
+              
+              .btnarrow img{
+                position: relative;
+                top: 5px;
+                left: 5px;
+            }
+          }
+        
+    }
+
+    .containertwo {
+
+        .vr{
+            visibility: hidden;
+        }
+    }
+
+    .what_we_provide{
+
+        .providewrapper{
+            .row{
+                padding-left: 35%;
+                padding-right: 120px;
+            }
+              
+        }
+        
+        .btnarrow{
+            position: relative;
+            left: 38%;
+          }
+        
+    }
+
+    footer a {
+        padding: 8px;
+      }
+}
+
+    
+
+

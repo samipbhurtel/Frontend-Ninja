@@ -1,0 +1,119 @@
+.containertwo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: auto;
+
+    h1{
+        font-size: 48px;
+        line-height: 56.25px;
+        font-weight: 400;
+        color: #9B9B9B;
+        margin-top: 2em;
+    }
+
+    p{
+        position: relative;
+        font-size: 16px;
+        line-height: 19px;
+        color: $secondary-color;
+        left: 12px;
+        margin-top: 55px;
+    }
+
+    .vr{
+        border-left: 1px solid $secondary-color;
+        height: 370px;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 95em;
+      
+    }
+
+    .resources{
+
+        img{
+            position: relative;
+            top: 25px;
+            right: 30px;
+        }
+
+        .hrl{
+            position: relative;
+            border-top: 1px solid $primary-color;
+            width: 300px;
+            right: 30px;
+            top: 10px;
+        
+        }
+
+        a{
+                text-decoration: none;
+                color: $secondary-color ;
+
+                &:hover{
+                    color: $primary-color;
+                  }
+        } 
+
+        li{
+            font-size: 16px;
+            line-height: 19px;
+            list-style: none;
+            margin-bottom: 20px;
+            
+        }
+
+        
+
+    }
+
+
+    .news{
+        
+        ul{
+            position: relative;
+            right: 32px;
+            font-size: 16px;
+            color: $secondary-color;
+            text-decoration: none;
+            line-height: 19px;
+            list-style: none;
+            padding-top: 20px;
+
+            h2{
+                
+                margin-bottom: 10px;
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 15.23px;
+                text-transform: uppercase;
+                color: #9B9B9B;
+                mix-blend-mode: normal;
+                opacity: 0.5;
+                
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: $secondary-color ;
+
+            &:hover{
+                color: $primary-color;
+                }
+            }
+
+        hr{
+            border-top: 1px solid $primary-color;
+            margin-bottom: 20px;
+        }
+
+        p{
+            margin-top: 45px;
+
+       }
+    }
+        
+}

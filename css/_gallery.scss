@@ -1,0 +1,41 @@
+.gallery{
+    
+        h1{
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #9B9B9B;
+    }
+
+    h2{
+        font-style: italic;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #9B9B9B;
+        margin-bottom:3em ;
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+        grid-gap:5px;
+        cursor: pointer;
+
+        img{
+            width: 100%;
+            border-radius: 20px;
+
+            &:hover{
+	
+                box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+                transform: translateY(-10px);
+            }
+        }
+
+        .box{
+            padding: 10px;
+        }
+    }
+}

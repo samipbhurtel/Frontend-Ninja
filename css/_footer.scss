@@ -1,0 +1,45 @@
+.end_section{
+    position: relative;
+    top: 35px;
+    background: #333333;
+    margin-top: -40PX;
+    padding: 20PX 30px 20PX 30px;
+
+    footer{
+
+        a {
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-decoration: none;
+          }
+
+        .footer-right {
+            float: right;
+
+            a{
+                &:hover {
+                    color:$primary-color;
+                  }
+            }
+            
+            
+          }
+    }
+    
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    transition-delay: 2s;
+        
+  }
